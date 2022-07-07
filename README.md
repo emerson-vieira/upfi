@@ -1,7 +1,4 @@
 <img alt="Ignite" src="https://i.imgur.com/eCVyxxy.png">
-<p align="center">
-  <img alt="Ignite" src="https://i.ibb.co/3hMBRCG/imagem-2022-01-23-030348.png">
-</p>
 
 <p align="center">
 Começando pelo tema do projeto: upload de imagens. Como o desenvolvimento do zero acarretaria em um projeto muito grande. A ideia é que nesses 4 arquivos você tenha um pouco de contato com os 3 principais pontos que queremos abordar nesse projeto: React Query, React Hook Form e Chakra UI.
@@ -44,3 +41,8 @@ Inicie a aplicação com ```yarn dev```
 
 Tudo que você precisa fazer é criar um banco no FaunaDB com um nome de sua preferência que precisa ter uma coleção chamada `images`. Com o banco e coleção criados, basta você criar e copiar a chave do banco no seu arquivo `.env.local` da seguinte forma:
  `FAUNA_API_KEY=VALOR_DA_CHAVE_COPIADA`
+
+</br>
+</br>
+
+<p >Desenvolvido por <a href="https://github.com/emerson-vieira">Emerson Vieira.</a>

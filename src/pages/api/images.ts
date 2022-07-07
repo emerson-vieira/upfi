@@ -50,12 +50,12 @@ export default async function handler(
 
   if (req.method === 'GET') {
     const { after } = req.query;
-
     const queryOptions = {
       size: 6,
       ...(after && { after: query.Ref(query.Collection('images'), after) }),
     };
 
+    console.log(queryOptions);
     return client
       .query<ImagesQueryResponse>(
         query.Map(
